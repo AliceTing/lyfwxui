@@ -24,17 +24,11 @@ module.exports = {
   ],
   'rules': {
     'arrow-parens': 'off',
-    'comma-dangle': [
-      'error',
-      'only-multiline'
-    ],
+    'comma-dangle': 'off',
     'complexity': ['error', 20],
     'func-names': 'off',
     'global-require': 'off',
-    'handle-callback-err': [
-      'error',
-      '^(err|error)$'
-    ],
+    'handle-callback-err': 'off',
     'import/no-unresolved': [
       'error',
       {
@@ -56,37 +50,19 @@ module.exports = {
     'no-underscore-dangle': 'off',
     'node/no-deprecated-api': 'error',
     'node/process-exit-as-throw': 'error',
-    'object-curly-spacing': [
-      'error',
-      'never'
-    ],
-    'operator-linebreak': [
-      'error',
-      'after',
-      {
-        'overrides': {
-          ':': 'before',
-          '?': 'before'
-        }
-      }
-    ],
+    'object-curly-spacing': 'off',
+    'operator-linebreak': 'off',
     'prefer-arrow-callback': 'off',
     'prefer-destructuring': 'off',
     'prefer-template': 'off',
-    'quote-props': [
-      1,
-      'as-needed',
-      {
-        'unnecessary': true
-      }
-    ],
-    'semi': [
-      'error',
-      'never'
-    ],
+    'quote-props': 'off',
+    'semi': 'off',
     'no-await-in-loop': 'off',
     'no-restricted-syntax': 'off',
     'promise/always-return': 'off',
+    'eol-last': 'off',
+    'space-before-blocks': 'off',
+    'no-trailing-spaces': 'off'
   },
   'globals': {
     'window': true,

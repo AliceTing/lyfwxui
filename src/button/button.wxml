@@ -1,0 +1,4 @@
+<button class="lyf-btn btn--{{type}} {{disabled ? 'btn--disabled':''}}">
+	<slot></slot>
+</button>
+

@@ -2,10 +2,6 @@ const _ = require('./utils')
 
 Component({
   properties: {
-    prop: {
-      type: String,
-      value: 'index.properties'
-    },
   },
   data: {
     flag: false,
@@ -19,6 +15,13 @@ Component({
           })
         }
       })
+    }
+  },
+  methods: {
+    goButton(){
+      // wx.navigateTo({
+      //   url: './button/button'
+      // })
     }
   }
 })

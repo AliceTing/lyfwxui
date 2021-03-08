@@ -1,0 +1,28 @@
+.lyf-btn {
+  border-radius: 120rpx;
+  font-size: 32rpx;
+  font-weight: 400;
+}
+.lyf-btn::after {
+  border: none;
+}
+.lyf-btn.btn--primary {
+  background-color: var(--color);
+  color: #fff;
+}
+.lyf-btn.btn--danger {
+  background-color: red;
+  color: #fff;
+}
+.lyf-btn.btn--gray {
+  background-color: #999;
+  color: #fff;
+}
+.lyf-btn.btn--line {
+  border: solid 1rpx #999;
+  background: transparent;
+  color: #999;
+}
+.lyf-btn.btn--disabled {
+  opacity: .4;
+}

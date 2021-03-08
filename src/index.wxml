@@ -1,2 +1,3 @@
-<view class="index other">{{prop}}-{{flag}}</view>
-<other></other>
+<view>flag:{{flag}}</view>
+<lyf-button bindtap="goButton">按钮</lyf-button>
+
